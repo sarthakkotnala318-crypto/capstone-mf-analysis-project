@@ -11,6 +11,7 @@ print(f"Total CSV files found: {len(csv_files)}")
 print("=" * 60)
 
 # Load and inspect each CSV file
+# Change in code
 for file in csv_files:
 
     print(f"\nFile: {file.name}")
