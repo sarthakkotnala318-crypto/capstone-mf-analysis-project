@@ -123,3 +123,5 @@ CREATE TABLE IF NOT EXISTS fact_aum (
     FOREIGN KEY (date)
         REFERENCES dim_date(date)
 );
+
+
